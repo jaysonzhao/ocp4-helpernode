@@ -376,7 +376,7 @@
 
   - name: Downloading filetranspiler source
     git:
-      repo: https://github.com/ashcrow/filetranspiler
+      repo: https://github.com/wangzheng422/filetranspiler
       dest: /usr/local/src/filetranspiler
     when: install_filetranspiler
 
